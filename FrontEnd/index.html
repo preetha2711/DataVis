@@ -6,10 +6,43 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+		<script src='main.js'></script>
+		<link href='main.css' rel='stylesheet' />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
+
+	<style>
+	#map {
+	    position: fixed;
+	    width:50%;
+	}
+	#features {
+	    width: 50%;
+	    margin-left: 50%;
+	    font-family: sans-serif;
+	    overflow-y: scroll;
+	    background-color: #fafafa;
+	}
+	section {
+	    padding:  25px 50px;
+	    line-height: 25px;
+	    border-bottom: 1px solid #ddd;
+	    opacity: 0.25;
+	    font-size: 13px;
+	}
+	section.active {
+	    opacity: 1;
+	}
+	section:last-child {
+	    border-bottom: none;
+	    margin-bottom: 200px;
+	}
+	</style>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -19,7 +52,7 @@
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<h1>airScroll</h1>
 						<p>The Busiest 10 airports in India.<br />
-						built by <a href="https://github.com/preetha2711">Preetha Datta, </a><a href="https://github.com/sanbansal42">Sanchit Bansal, </a><a href="https://github.com/vineetred">Vineet Reddy </a>for <a href="">Data Visualisation</a>.</p>
+						built by <a href="https://github.com/preetha2711">Preetha Datta, </a><a href="https://github.com/sanbansal42">Sanchit Bansal, </a><a href="https://github.com/vineetred">Vineet Reddy </a>for <a href="https://classroom.google.com/u/0/c/MTE1NzQ0OTM1OTVa">Data Visualisation</a>.</p>
 					</header>
 
 				<!-- Nav -->
@@ -32,15 +65,58 @@
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Second Section -->
+						
 							<section id="second" class="main special">
 								<header class="major">
 									<h2>Scrollable Visualisation of 10 busiest airports in India</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 								</header>
-								<ul class="statistics">
+								<section id='rank-1' class='active'>
+								    <h3>Indira Gandhi International Airport, Delhi</h3>
+								    <img src='delhi.jpg' width='100%' />
+								    <p>Indira Gandhi International Airport serves as the primary civilian aviation hub for the National Capital Region of Delhi. The airport, spread over an area of 5,106 acres is situated in Palam, 15 km (9.3 mi) south-west of the New Delhi railway station and 16 km (9.9 mi) from New Delhi city centre.
+Named after Indira Gandhi, a former Prime Minister of India, it is the busiest airport in India in terms of passenger traffic since 2009. It is also the busiest airport in the country in terms of cargo traffic.
+</p>
+								</section>
+								<section id='rank-2'>
+								    <h3>
+Chhatrapati Shivaji International Airport,Mumbai</h3>
+								    <p>You can tilt the camera using pitch.</p>
+								</section>
+								<section id='rank-3'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-4'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-5'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-6'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-7'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-8'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-9'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+								<section id='rank-10'>
+								    <h3>Conclusion</h3>
+								    <p>Summary can zoom back to the original view.</p>
+								</section>
+
+
+								<!-- Second Section <ul class="statistics">
 									<li class="style1">
 										<span class="icon fa-code-fork"></span>
 										<strong>5,120</strong> Etiam
@@ -62,15 +138,13 @@
 										<strong>1,024</strong> Nullam
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-							</section>
+							</section>-->
 
-						<!-- Get Started -->
+						
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>About us</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<p>What you see currently is the map of the busiest airports in India.</p>
 								</header>
 							</section>
 
