@@ -7,7 +7,8 @@ var chapters = {
         zoom : 4,
         bearing : 0,
         pitch : 1,
-    }
+    },
+    'rank-2'
 }
 
 window.onload = function() {
