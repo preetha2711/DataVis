@@ -68,7 +68,11 @@ zoom : 11,
 bearing : 0,
 pitch : 1,
 },
+<<<<<<< HEAD
 'part-11' : {
+=======
+'part-0' : {
+>>>>>>> 1a41875509e6b7643e4b66a78df2ebd2d4529dbe
     center : [78.9629,20.5937],
     zoom : 4,
     bearing : 0,
