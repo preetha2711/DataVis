@@ -2,63 +2,63 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidmluZWV0cmVkZHkiLCJhIjoiY2pkeWcxOXl6MTMxczJ3c
 
 
 var chapters = {
-  'rank-1' : {
-center : [77.123767,28.653458],
-zoom : 4,
+'part-1' : {
+center : [77.123,28.653],
+zoom : 10,
 bearing : 0,
 pitch : 1,
 },
-'rank-2' : {
+'part-2' : {
 center : [72.83333,18.96667],
-zoom : 4,
+zoom : 11,
 bearing : 0,
-pitch : 1,
+pitch : 50,
 },
-'rank-3' : {
+'part-3' : {
 center : [77.59796,12.96991],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-4' : {
+'part-4' : {
 center : [80.27,13.09],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-5' : {
+'part-5' : {
 center : [88.33778,22.54111],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-6' : {
+'part-6' : {
 center : [78.46667,17.36667],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-7' : {
+'part-7' : {
 center : [76.266935,9.901199],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-8' : {
+'part-8' : {
 center : [72.58,23.03],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-9' : {
+'part-9' : {
 center : [74.030543,15.29299],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 },
-'rank-10' : {
+'part-10' : {
 center : [73.84778,18.52361],
-zoom : 4,
+zoom : 11,
 bearing : 0,
 pitch : 1,
 }
@@ -90,7 +90,7 @@ window.onscroll = function() {
     }
 };
 
-var activeChapterName = 'rank-1';
+var activeChapterName = 'part-1';
 function setActiveChapter(chapterName) {
     if (chapterName === activeChapterName) return;
 
