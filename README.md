@@ -1,4 +1,6 @@
-# airScroll
+# DataVis
+
+# Project 1 
 Data Visualization Project 
 
 Project for Data Viz by Preetha Datta, Sanchit Bansal and Vineet Reddy.
@@ -24,3 +26,5 @@ These findings could probably mean that sheds a light on the economy of the city
 SOURCES
 
 The write-ups for the airports were accessed from the following website https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_India
+
+# Project 2
